@@ -627,7 +627,7 @@ export default function MedTech() {
           ].map((item, index) => (
             <div key={index} className="flex items-start space-x-4">
               <div className="flex-shrink-0">
-                <item.icon className="w-6 h-6 text-blue-600 mt-1 flex-shrink-0" />
+                <item.icon className="w-8 h-6 text-blue-600 mt-1 flex-shrink-0" />
               </div>
               <div className="flex-1">
                 <p className="font-semibold text-gray-800">Q: {item.q}</p>

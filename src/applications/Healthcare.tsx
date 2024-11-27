@@ -9,16 +9,12 @@ import {
   Database,
   Shield,
   TrendingUp,
-  AlertTriangle,
   CheckCircle,
-  BarChart2,
-  Search,
   Layers,
   GitBranch,
-  Activity,
   ChevronDown,
   ChevronUp,
-  Lightbulb,
+  FolderKanban,
 } from 'lucide-react';
 
 interface Section {
@@ -367,7 +363,7 @@ export default function ARCSForFDAFastTrack() {
             {
               q: 'What is the core purpose of ARCS for FDA pathways?',
               a: "ARCS streamlines the FDA application process for medical technology companies by automating compliance, adapting to regulatory changes in real-time, and using predictive analytics to optimize each step. It's designed to reduce costs, accelerate timelines, and ultimately ease the path to FDA clearance for advanced medical devices.",
-              icon: Lightbulb,
+              icon: FolderKanban,
             },
             {
               q: 'How does ARCS specifically help companies aiming for FDA Fast Track designation?',
@@ -417,11 +413,11 @@ export default function ARCSForFDAFastTrack() {
             {
               q: 'How do you see ARCS reshaping the FDA approval landscape for medical technology?',
               a: 'ARCS represents a transformative shift by combining automation, predictive analytics, and adaptive learning into one system. For medical technology companies, ARCS simplifies FDA processes, improves compliance outcomes, and enhances strategic decision-making. As a result, it accelerates time-to-market while safeguarding regulatory integrity, setting a new standard for efficiency and reliability in the FDA approval process.',
-              icon: Lightbulb,
+              icon: FolderKanban,
             },
           ].map((item, index) => (
             <div key={index} className="flex items-start space-x-4">
-              <item.icon className="w-6 h-6 text-blue-600 mt-1" />
+              <item.icon className="w-8 h-6 text-blue-600 mt-1" />
               <div>
                 <p className="font-semibold text-gray-800">Q: {item.q}</p>
                 <p className="text-gray-600 mt-2">James Scott: {item.a}</p>

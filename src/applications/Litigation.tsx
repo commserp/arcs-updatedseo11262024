@@ -2,21 +2,15 @@ import React, { useState, useEffect } from 'react';
 import ApplicationLayout from './Layout';
 import { 
   Scale, 
-  FileText, 
-  AlertTriangle, 
   BarChart, 
   Shield, 
-  CheckCircle,
-  GitBranch,
-  Gavel,
-  BookOpen,
+  ChevronUp,
+  ChevronDown,
   Target,
   Brain,
   Network,
-  Database,
   Activity,
-  Search,
-  Lock
+  Search
 } from 'lucide-react';
 
 interface Section {

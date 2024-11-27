@@ -55,9 +55,9 @@ export default function Technologies() {
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-emerald-500 rounded-full blur animate-pulse-glow" />
               <Cpu className="relative w-8 h-8 text-blue-600" />
             </div>
-            <h2 className="text-3xl font-bold gradient-text sm:text-4xl">
-              Core Technologies
-            </h2>
+            <h1 className="text-3xl font-bold gradient-text sm:text-4xl">
+              ARCS Core Technologies
+            </h1>
           </div>
           <p className="mt-4 text-lg text-gray-600">
             Pioneering the future of artificial intelligence and cognitive computing

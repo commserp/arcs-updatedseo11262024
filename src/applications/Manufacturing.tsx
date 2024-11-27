@@ -12,27 +12,18 @@ import {
   Clock,
   Users,
   TrendingUp,
-  Lock,
   Database,
-  Briefcase,
-  Scale,
-  FileSearch,
-  PieChart,
   Shuffle,
-  MessageSquare,
   Sliders,
   Activity,
   ChevronDown,
   ChevronUp,
   Lightbulb,
   Target,
-  Compass,
-  FileText,
   PenToolIcon as Tool,
   Truck,
   Thermometer,
   Droplet,
-  Wind,
   Box,
   Layers,
 } from 'lucide-react';
@@ -672,7 +663,7 @@ export default function Manufacturing() {
               },
             ].map((item, index) => (
               <div key={index} className="flex items-start space-x-4">
-                <item.icon className="w-6 h-6 text-blue-600 mt-1" />
+                <item.icon className="w-8 h-6 text-blue-600 mt-1" />
                 <div>
                   <p className="font-semibold text-gray-800">Q: {item.q}</p>
                   <p className="text-gray-600 mt-2">James Scott: {item.a}</p>
