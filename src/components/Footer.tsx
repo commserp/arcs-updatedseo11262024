@@ -1,43 +1,43 @@
 import React from 'react';
-import { Brain, Github, Linkedin, Twitter } from 'lucide-react';
+import { Brain, Stethoscope, Beaker, Leaf } from 'lucide-react';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   const sections = [
     {
-      title: 'Company',
+      title: 'Core Industries',
       links: [
-        { name: 'About Us', href: '#about' },
-        { name: 'Technologies', href: '#technologies' },
-        { name: 'Applications', href: '#applications' },
-        { name: 'Contact', href: '#contact' }
+        { name: 'Healthcare & MedTech', href: '/healthcare' },
+        { name: 'Legal & Litigation', href: '/legal' },
+        { name: 'Hedge Funds & VCs', href: '/hedge-funds-vc' },
+        { name: 'Government', href: '/government' }
       ]
     },
     {
-      title: 'Resources',
+      title: 'Specialized Industries',
       links: [
-        { name: 'Documentation', href: '#' },
-        { name: 'Research Papers', href: '#' },
-        { name: 'Case Studies', href: '#' },
-        { name: 'Blog', href: '#' }
+        { name: 'Geopolitical Analysis', href: '/geopolitical-analysts' },
+        { name: 'Critical Infrastructure', href: '/critical-infrastructure' },
+        { name: 'Advanced Labs', href: '/advanced-labs' },
+        { name: 'Opioid Crisis', href: '/opioid-crisis' }
       ]
     },
     {
-      title: 'Legal',
+      title: 'Emerging Technologies',
       links: [
-        { name: 'Privacy Policy', href: '#' },
-        { name: 'Terms of Service', href: '#' },
-        { name: 'Cookie Policy', href: '#' },
-        { name: 'Compliance', href: '#' }
+        { name: 'FDA Programs', href: '/fda-programs' },
+        { name: 'Carbon Capture', href: '/carbon-capture' },
+        { name: 'Myocarditis', href: '/myocarditis' },
+        { name: 'Synthetic Biology', href: '/synthetic-biology' }
       ]
     }
   ];
 
   const socialLinks = [
-    { icon: Twitter, href: '#', label: 'Twitter' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
-    { icon: Github, href: '#', label: 'GitHub' }
+    { icon: Leaf, href: '/carbon-capture', label: 'Carbon Capture' },
+    { icon: Beaker, href: '/advanced-labs', label: 'Advanced Labs' },
+    { icon: Stethoscope, href: '/healthcare', label: 'Healthcare & MedTech' }
   ];
 
   return (
